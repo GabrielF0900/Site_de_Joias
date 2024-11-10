@@ -1,0 +1,390 @@
+body {
+    background-color: white;
+    height: 1500vh;
+    
+    
+}
+
+.menus {
+
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    gap: 10px;
+    margin: 10px;
+    list-style-type: none;
+    padding: 0;
+    left: 600px;
+
+    & .menus li {
+        display: flex;
+        position: relative;
+        margin-right: 20px;
+    }
+
+}
+
+.login 
+    {
+        display: flex;
+        position: relative;
+        margin-left: 800px;
+        color: brown;
+
+    }
+
+    .carrinho_imagem 
+        {
+            display: flex;
+            position: relative;
+            margin-left: 400px;
+            left: 350px;
+            top: -45px
+
+        }
+
+.cabeca {
+    width: 100px;
+    height: 50px;
+
+}
+
+.divisao1 {
+    background-color: antiquewhite;
+    position: relative;
+    height: 300px;
+    width: 1470px;
+}
+
+.divisao2 {
+    background-color: brown;
+    width: 1470px;
+    display: inline-block;
+
+    & .letras {
+        color: white;
+        position: relative;
+        display: flex;
+        left: 440px;
+        margin: 5px;
+    }
+
+}
+
+.ultimos_dias {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-left: 650px;
+    padding: 10px;
+}
+
+.imagem1 {
+    display: flex;
+    height: 90%;
+    margin-left: 200px;
+}
+
+.imagem2 {
+    display: flex;
+    height: 90%;
+    margin-left: 900px;
+    float: right;
+    transform: translateY(-250px);
+    position: relative;
+    left: -200px;
+}
+
+.categoria {
+    width: 1422px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+
+}
+
+.letra_categoria 
+{
+    display: flex;
+    position: relative;
+    margin-left: 650px;
+    padding: 10px;
+
+}
+
+
+.gargantilha 
+    {
+        display: flex;
+        position: relative;
+        top: 10px;
+        left: 20px;
+        
+    }
+    
+
+    .brincos 
+    {
+        display: flex;
+        position: relative;
+        left: 40px;
+        top: 10px;
+}
+
+
+.pulseira 
+{
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+
+.anel 
+{
+    display: flex;
+    position: relative;
+    left: 60px;
+    top: 10px;
+
+}
+
+.pingente 
+{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+
+}
+
+.alianca 
+{
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+
+}
+
+.letras_da_categoria 
+{
+    display: flex;
+    position: relative;
+    margin-left: 700px;
+
+}
+
+
+/*Parte do Meio*/
+
+.parte_meio 
+{
+    display: flex;
+    position: relative;
+    width: 1500px;
+    height: 500px;
+    margin: 40px;
+    left: -60px;
+
+}
+
+.atriz1 
+{
+    display: flex;
+    position: relative;
+    left: 50px;
+}
+
+ .anel_ousado 
+    {
+        display: flex;
+        position: relative;
+        left: -900px;
+        top: 350px;
+    }
+
+
+.atriz2 
+{
+    display: flex;
+    position: relative;
+    margin-left: 580px;
+    top: -350px;
+
+}
+
+.colar_ousado 
+{
+    display: flex;
+    position: absolute;
+    left: 600px;
+    top: 350px;
+    margin-left: 3px;
+}
+
+.atriz3 
+{
+    display: flex;
+    position: relative;
+    margin-top: -700px;
+    left: 1100px;
+
+}
+
+.pulseira_ousada 
+{
+    display: flex;
+    position: relative;
+    margin-top: 330px;
+    left: 130px;
+}
+
+
+/* Final da Parte do Meio */
+
+.final_meio 
+{
+    display: flex;
+    height: 500px;
+    width: 1450px;
+    justify-content: space-between;
+}
+/* Footer */
+
+.footer 
+{
+    display: flex;
+    position: relative;
+    width: 1450px;
+    background-color: aquamarine;
+    margin-top: 1600px;
+    height: 70px;
+    background-color: brown;
+
+}
+
+.contato_nome 
+{
+    display: flex;
+    position: relative;
+    margin-left: 250px;
+
+}
+
+.contato_numero {
+    display: flex;
+    position: relative;
+    margin-left: 450px;
+    margin-top: -35px;
+}
+
+.imagem_rodape 
+{
+    display: flex;
+    position: relative;
+    margin-left: -700px;
+    margin-top: -10px;
+
+}
+
+.contate_eclatjoias 
+{
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+    color: white;
+    margin-top: -20px;
+
+}
+
+.botao 
+{
+    display: flex;
+    position: relative;
+    margin-left: 650px;
+    margin-top: -20px;
+    height: 20px;
+    width: 100px;
+    color: #000;
+    border-color: white;
+    cursor: pointer;
+
+}
+
+.footer_final 
+{
+    display: flex;
+    position: relative;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+
+.nossas_lojas 
+{
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+    color: brown;
+
+}
+
+.nossas 
+{
+    display: flex;
+    margin-top: 40px;
+    margin-left: -75px;
+    color: brown;
+
+}
+
+.sobre
+{
+    display: flex;
+    position: relative;
+    margin-top: 65px;
+    margin-left: -85px;
+    color: brown;
+
+}
+
+.facebook 
+{
+    display: flex;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 40px;
+
+}
+
+.rede_facebook 
+{
+    display: flex;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 15px;
+
+}
+
+.linkedin 
+{
+    display: flex;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 90px;
+
+}
+
+.logo_final 
+{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 500px;
+
+}
